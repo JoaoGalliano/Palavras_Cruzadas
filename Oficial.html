@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzadas</title>
+    <link rel="stylesheet" href="Oficial.css">
+</head>
+
+<body>
+    <button onclick="validar()">Validar</button>
+    <div id="jogo" class="flex-container">
+    
+        
+
+        <div class="registro">
+            <input onclick="dica1()" class="botao">
+            <input id="r1" class="quadrado" maxlength="1">
+            <input id="r2" class="quadrado" maxlength="1">
+            <input id="r3" class="quadrado" maxlength="1">
+            <input id="r4" class="quadrado" maxlength="1">
+            <input id="r5" class="quadrado" maxlength="1">
+            <input id="r6" class="quadrado" maxlength="1">
+            <input id="r7" class="quadrado" maxlength="1">
+            <input id="r8" class="quadrado" maxlength="1">
+        </div>
+
+
+        <div class="memoria-ram">
+            <input onclick="dica2()" class="botao">
+            <input id="m1" class="quadrado" maxlength="1">
+            <input id="m2" class="quadrado" maxlength="1">
+            <input id="m3" class="quadrado" maxlength="1">
+            <input id="m4" class="quadrado" maxlength="1">
+            <input id="m5" class="quadrado" maxlength="1">
+            <input id="m6" class="quadrado" maxlength="1">
+            <input id="m7" class="quadrado" maxlength="1">
+            <input id="m8" class="quadrado" maxlength="1" placeholder="-">
+            <input id="m9" class="quadrado" maxlength="1">
+            <input id="m10" class="quadrado" maxlength="1">
+            <input id="m11" class="quadrado" maxlength="1">
+        </div>
+
+        <div class="cpu">
+            <input onclick="dica3()" class="botao">
+            <input id="c1" class="quadrado" maxlength="1">
+            <input id="c2" class="quadrado" maxlength="1">
+            <input id="c3" class="quadrado" maxlength="1">
+        </div>
+
+
+        <div class="ula">
+            <input onclick="dica4()" class="botao">
+            <input id="un1" class="quadrado" maxlength="1">
+            <input id="un2" class="quadrado" maxlength="1"> 
+            <input id="un3" class="quadrado" maxlength="1">
+            <input id="un4" class="quadrado" maxlength="1">
+            <input id="un5" class="quadrado" maxlength="1">
+            <input id="un6" class="quadrado" maxlength="1">
+            <input id="un7" class="quadrado" maxlength="1">
+            <input id="un8" class="quadrado" maxlength="1">
+            <input id="un9" class="quadrado" maxlength="1">
+            <input id="un10" class="quadrado" maxlength="1">
+            <input id="un11" class="quadrado" maxlength="1">
+            <input id="un12" class="quadrado" maxlength="1">
+            <input id="un13" class="quadrado" maxlength="1">
+            <input id="un14" class="quadrado" maxlength="1">
+            <input id="un15" class="quadrado" maxlength="1">
+            <input id="un16" class="quadrado" maxlength="1">
+            <input id="un17" class="quadrado" maxlength="1">
+            <input id="un18" class="quadrado" maxlength="1">
+            <input id="un19" class="quadrado" maxlength="1">
+            <input id="un20" class="quadrado" maxlength="1">
+            <input id="un21" class="quadrado" maxlength="1">
+            <input id="un22" class="quadrado" maxlength="1">
+            <input id="un23" class="quadrado" maxlength="1">
+            <input id="un24" class="quadrado" maxlength="1">
+            <input id="un25" class="quadrado" maxlength="1">
+
+        </div>
+
+        <div class="cp">
+            <input onclick="dica5()" class="botao">
+            <input id="cp1" class="quadrado" maxlength="1">
+            <input id="cp2" class="quadrado" maxlength="1">
+            <input id="cp3" class="quadrado" maxlength="1">
+            <input id="cp4" class="quadrado" maxlength="1">
+            <input id="cp5" class="quadrado" maxlength="1">
+            <input id="cp6" class="quadrado" maxlength="1">
+            <input id="cp7" class="quadrado" maxlength="1">
+            <input id="cp8" class="quadrado" maxlength="1">
+            <input id="cp9" class="quadrado" maxlength="1">
+            <input id="cp10" class="quadrado" maxlength="1">
+            <input id="cp11" class="quadrado" maxlength="1">
+            <input id="cp12" class="quadrado" maxlength="1">
+            <input id="cp13" class="quadrado" maxlength="1">
+            <input id="cp14" class="quadrado" maxlength="1">
+            <input id="cp15" class="quadrado" maxlength="1">
+            <input id="cp16" class="quadrado" maxlength="1">
+            <input id="cp17" class="quadrado" maxlength="1">
+            <input id="cp18" class="quadrado" maxlength="1">
+            <input id="cp19" class="quadrado" maxlength="1">
+            <input id="cp20" class="quadrado" maxlength="1">
+            
+        </div>
+
+
+        <div class="ep">
+            <input onclick="dica6()" class="botao">
+            <input id="ep1" class="quadrado" maxlength="1">
+            <input id="ep2" class="quadrado" maxlength="1">
+            <input id="ep3" class="quadrado" maxlength="1">
+            <input id="ep4" class="quadrado" maxlength="1">
+            <input id="ep5" class="quadrado" maxlength="1">
+        </div>
+
+        <div class="fl">
+            <input onclick="dica7()" class="botao">
+            <input id="fl1" class="quadrado" maxlength="1">
+            <input id="fl2" class="quadrado" maxlength="1">
+            <input id="fl3" class="quadrado" maxlength="1">
+            <input id="fl4" class="quadrado" maxlength="1">
+            <input id="fl5" class="quadrado" maxlength="1">
+        </div>
+        <div class="cs">
+            <input id="btn" onclick="dica8()" class="botao">
+            <input id="cs1" class="quadrado" maxlength="1">
+            <input id="cs2" class="quadrado" maxlength="1">
+            <input id="cs3" class="quadrado" maxlength="1">
+            <input id="cs4" class="quadrado" maxlength="1">
+            <input id="cs5" class="quadrado" maxlength="1">
+            <input id="cs6" class="quadrado" maxlength="1">
+            <input id="cs7" class="quadrado" maxlength="1">
+            <input id="cs8" class="quadrado" maxlength="1">
+            <input id="cs9" class="quadrado" maxlength="1">
+            <input id="cs10" class="quadrado" maxlength="1">
+            <input id="cs11" class="quadrado" maxlength="1">
+            <input id="cs12" class="quadrado" maxlength="1">
+            <input id="cs13" class="quadrado" maxlength="1">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    // PÁGINA INICAL------------------------------------------------------------
+   
+function comecar(){
+jogo.style.display="none"
+
+}   
+ // FUNÇÃO DO BOTÃO VALIDAR--------------------------------------------------
+    function validar() {
+        if (r1.value == "r" && r2.value == "e" && r3.value == "g" && r4.value == "i" && r5.value == "s"
+            && r6.value == "t" && r7.value == "r" && r8.value == "o"
+            ||
+            m1.value == "m" && m2.value == "e" && m3.value == "m" && m4.value == "o" && m5.value == "r"
+            && m6.value == "i" && m7.value == "a" && m8.value == "-" && m9.value == "r" && m10.value == "a" && m11.value == "m"
+            ||
+            c1.value == "c" && c2.value == "p" && c3.value == "u"
+            ||
+            un1.value == "u" && un2.value == "n" && un3.value == "i" && un4.value == "d" &&
+            un5.value == "a" && un6.value == "d" && un7.value == "e" && un8.value == "-" &&
+            un9.value == "l" && un10.value == "o" && un11.value == "g" && un12.value == "i" && un13.value == "c" && un14.value == "a" && un15.value == "-" && un16.value == "a" && un17.value == "r" && un18.value == "i" && un19.value == "t" && un20.value == "m" && un21.value == "e" && un22.value == "t" && un23.value == "i" && un24.value == "c" && un25.value == "a"
+            ||
+            cp1.value == "c" && cp2.value == "o" && cp3.value == "n" && cp4.value == "t" && cp5.value == "a" && cp6.value == "d" && cp7.value == "o" && cp8.value == "r" && cp9.value == "-" && cp10.value == "d" && cp11.value == "e" && cp12.value == "-" && cp13.value == "p" && cp14.value == "r" && cp15.value == "o" && cp16.value == "g" && cp17.value == "r" && cp18.value == "a" && cp19.value == "m" && cp20.value == "a"
+            ||
+            ep1.value == "e" && ep2.value == "p" && ep3.value == "r" && ep4.value == "o" && ep5.value == "m"
+            ||
+            fl1.value == "f" && fl2.value == "l" && fl3.value == "a" && fl4.value == "s" && fl5.value == "h"
+            ||
+            cs1.value == "c" && cs2.value == "h" && cs3.value == "i" && cs4.value == "p" &&
+            cs5.value == "-" && cs6.value == "s" && cs7.value == "e" && cs8.value == "l" &&
+            cs9.value == "e" && cs10.value == "c" && cs11.value == "t" && cs12.value == "o" &&
+            cs13.value == "r") {
+
+            btn.style.color="green";    
+
+        } 
+
+    }
+
+    // BOTÕES DE DICAS---------------------------------------------------------- 
+    function dica1() {
+        alert("Memória alocada dentro da cpu")
+
+    }
+
+
+    function dica2() {
+
+        alert("Memória que permite ler e gravar, mas perde a informação, sem energia.")
+
+    }
+
+    function dica3() {
+
+        alert("Parte que representa o cérebro do computador, o componente mais essencial.")
+
+    }
+
+
+    function dica4() {
+
+        alert("Parte responsável por executar somas, subtrações e funções lógicas.")
+    }
+
+
+    function dica5() {
+
+        alert("Memória que aponta para a próxima função a ser executada.")
+    }
+
+
+    function dica6() {
+
+        alert("Memória não volátil da Unidade de Comando Eletrônico. ")
+    }
+
+    function dica7() {
+
+        alert("Memória ideal para aparelhos móveis ou com uso de bateria.")
+    }
+
+
+    function dica8() {
+
+        alert("Linha de controle usada para seleção de um circuito integrado conectado a um barramento onde há mais circuitos.")
+    }
+</script>

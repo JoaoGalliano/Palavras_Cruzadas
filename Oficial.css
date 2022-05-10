@@ -1,0 +1,55 @@
+html,
+body {
+    background-color: rgb(152, 127, 95);
+}
+
+.flex-container {
+    align-content: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.quadrado {
+    /* OS INPUTS QUADRADOS QUE RECEBEM AS LETRAS */
+    text-transform: uppercase;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.botao {
+    background-color: rgb(255, 255, 81);
+    width: 30px;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 16px;
+
+}
+
+/* registro */
+.registro {}
+
+/* memoria-ram: */
+.memoria-ram {}
+
+/* Unidade-logica-aritmetica */
+.ula {}
+
+/* Contador-de-Instrução  */
+.ci {}
+
+/* eprom */
+.ep {}
+
+/* flash */
+.fl {}
+
+.cs {}
+
